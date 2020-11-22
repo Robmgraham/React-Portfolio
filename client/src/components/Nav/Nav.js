@@ -1,7 +1,7 @@
 import React from "react";
+import Nav from 'react-bootstrap/Nav'
 
-
-function Nav (){
+function NavBar (){
     return (
         <nav class="navbar fixed-bottom navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Robert Graham</a>
@@ -25,4 +25,4 @@ function Nav (){
     )
 }
 
-export default Nav;
+export default NavBar;

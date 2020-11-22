@@ -1,28 +1,12 @@
 import React from "react"
+
+import Nav from "../components/Nav/Nav"
 function About () {
     return (
         <>
         
  
-    <nav className="navbar fixed-bottom navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">Robert Graham</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-    </button>
-        <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav">
-                <li className="nav-item active">
-                    <a className="nav-link" href="index.html">About <span className="sr-only">(current)</span></a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="portfolio.html">Projects/Apps</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <Nav/>
 
     <div className="media container media-background">
         <img className="mr-3 mePhoto" src="/Images/Photo-of-me.jpg" alt="Generic placeholder image" />
