@@ -1,0 +1,69 @@
+.aboutBody {
+    background-image: url("/Images/ob.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.mePhoto {
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+}
+
+.media-background {
+    margin: 100px;
+    background-color: rgba(255, 255, 255, 0.863);
+}
+
+.media-body {
+    background-color: white;
+}
+
+.portfolioBody {
+    margin: 100px;
+    background-image: url("https://lh3.googleusercontent.com/lxQlH-cLoM0rxv-0JkH8CX2kzyIVNGzoaK5E9rtAxJVgUIIOaw9inAwVaHSeuTQxwKpdioVHbB3GN9fdfqp7hRohP-TMp3fO3XehVuvY7145AV5Dor-TrGiXlZL1TnXqs9tQt4z6VoG9oKEp6ZJJrSFDdQU8z5PtVYho4nCmukwpn6dicf59-y_aKjGXGtW2rUiGIdyh6zGkW2oASxKAofVvV2tNwUg4J51kwhQ9J-67HTQWKBXTX14sCqv-3MGMljq71wKAs43U3cJoJKplNEvRtm8o_u9dhEisTdggo-sDMJptcHH5M00Hdl8Knx6dRObaPghCqEzgVhy-3-1_FqCwxNPeyVRHlDYfUttLRDcSo3Xo1YsxOGgllUL_gx4rsRF8z1WMPGGIWZ1LADakgUB485mGRm3UQwsM-aL43nMNmyiDb0qhPtWABpRyCStbMdQFBLMPJmv-aGNSmgmToMUlVCXpAUiOMg5Z48OgDnjWNTfNEhuMUmmGfxgtqGBMMf_FZSJhgH5_8DtoyTUa92LgZzWc26wk2vCRNivLJn7ttpwarP2hoKD2hYe74LbMfEGYigRws-nlFYcqp2o3_VMMHXp1yeL6ChQKa1cqeKv9onlOdxz4y7136hpHdLVDJE2HmyBjz0Fmv2JWLDCYt6Hd9g8hppFds81cJjRoF_Fd7lePRtn70-TBNxfxWg=w1542-h867-no?authuser=2");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+.contactBody {
+    background-image: url("/Images/Cabrillo-Bridge-Downtown-SD.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: skyblue;
+    margin: 200px;
+}
+
+.cardImage {
+    height: fit-content;
+    width: 120px;
+    height: 200px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+
+/* Contact me Page */
+
+.speech-bubble {
+    position: relative;
+    background: rgba(255, 255, 255, 0.603);
+    border-radius: .4em;
+}
