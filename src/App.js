@@ -7,12 +7,13 @@ import Portfolio from "./pages/portfolio"
 function App() {
   return (
     <Router>
-      
+      <main>
       <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route exact path="/contact" component={Contact}/>
-        <Route exact path="/portfolio" component={Portfolio}/>
+        <Route path="/" exact component={Home}/>
+        <Route path="contact" exact component={Contact}/>
+        <Route path="/portfolio" exact component={Portfolio}/>
       </Switch>
+      </main>
     </Router>
   );
 }

@@ -1,10 +1,9 @@
 import React from "react"
-import Nav from "./components/Nav/Nav"
+import Nav from "../components/Nav/Nav"
 function About () {
     return (
         <>
         
- 
     <Nav/>
 
     <div className="media container media-background">
