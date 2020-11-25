@@ -5,8 +5,8 @@ import Home from "./pages/about.js"
 function App() {
   return (
     <Router>
-      <Route exact path={process.env.PUBLIC_URL} component={Home}/>
-
+      {/* <Route exact path={process.env.PUBLIC_URL} component={Home}/> */}
+    <Home/>
     </Router>
   );
 }
