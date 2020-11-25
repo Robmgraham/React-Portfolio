@@ -1,5 +1,6 @@
 import React from"react";
 import NavBar from "../components/Nav/Nav";
+import {Link} from "react-router-dom"
 
 function Portfolio () {
     return (
@@ -44,7 +45,7 @@ function Portfolio () {
                     <div class="card-body">
                         <h5 class="card-title">GitHub</h5>
                         <p class="card-text">Take a look at my GitHub profile and repositories</p>
-                        <a href="https://github.com/Robmgraham" class="btn btn-primary">GitHub</a>
+                        <Link href="https://github.com/Robmgraham" class="btn btn-primary">GitHub</Link>
                     </div>
                 </div>
             </div>
@@ -55,8 +56,8 @@ function Portfolio () {
                     <div class="card-body">
                         <h5 class="card-title">Daily Planner app</h5>
                         <p class="card-text"> A daily planner to help you prioritize your day</p>
-                        <a href="https://robmgraham.github.io/Daily-Planner/" class="btn btn-primary">DAILY
-                            PLANNER</a>
+                        <Link href="https://robmgraham.github.io/Daily-Planner/" class="btn btn-primary">DAILY
+                            PLANNER</Link>
                     </div>
                 </div>
             </div>
@@ -66,7 +67,7 @@ function Portfolio () {
                     <div class="card-body">
                         <h5 class="card-title">Job Finder app</h5>
                         <p class="card-text"> A Job Finder specifically for Javascript, HTML, CSS, and Python</p>
-                        <a href="https://msaviola.github.io/JobFinder/" class="btn btn-primary">Job Finder</a>
+                        <Link href="https://msaviola.github.io/JobFinder/" class="btn btn-primary">Job Finder</Link>
                     </div>
                 </div>
             </div>
@@ -76,7 +77,7 @@ function Portfolio () {
                     <div class="card-body">
                         <h5 class="card-title">Hypnos Sleep Tracker</h5>
                         <p class="card-text"> A sleep tracking app that helps the user regulate their sleep schedule</p>
-                        <a href="https://project-hypnos.herokuapp.com/" class="btn btn-primary">Hypnos Sleep Tracker</a>
+                        <Link href="https://project-hypnos.herokuapp.com/" class="btn btn-primary">Hypnos Sleep Tracker</Link>
                     </div>
                 </div>
             </div>
