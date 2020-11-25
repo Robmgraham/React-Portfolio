@@ -7,6 +7,7 @@ import Portfolio from "./pages/portfolio"
 function App() {
   return (
     <Router>
+      
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route exact path="/contact" component={Contact}/>
