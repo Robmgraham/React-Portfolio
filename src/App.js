@@ -1,12 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Home from "./pages/about.js"
+import Contact from "./pages/contact"
+import Portfolio from "./pages/portfolio"
 function App() {
   return (
     <Router>
-      <Route exact path={process.env.REACT_APP_PUBLIC_URL} component={Home}/>
-    
+      <Switch>
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/contact" component={Contact}/>
+        <Route exact path="/portfolio" component={Portfolio}/>
+      </Switch>
     </Router>
   );
 }
