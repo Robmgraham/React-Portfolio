@@ -8,13 +8,13 @@ import Portfolio from "./pages/portfolio.js"
 function App() {
   return (
     <Router>
-      <main>
+      
       <Switch>
         <Route path="/" exact component={Home}/>
         <Route path="/contact" exact component={Contact}/>
         <Route path="/portfolio" exact component={Portfolio}/>
       </Switch>
-      </main>
+      
     </Router>
   );
 }
