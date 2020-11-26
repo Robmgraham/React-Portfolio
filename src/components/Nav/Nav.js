@@ -1,15 +1,16 @@
 import React from "react";
-import Nav from 'react-bootstrap/Nav'
+import {Nav, Button} from 'react-bootstrap/Nav'
 import "./style.css"
 import {Link} from "react-router-dom"
+
 
 function NavBar (){
     return (
         <Nav class="navbar fixed-bottom navbar-expand-lg navbar-light bg-light">
         <Link class="navbar-brand" href="">Robert Graham</Link>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <Button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </Button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
