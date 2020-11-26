@@ -1,5 +1,5 @@
 import React from "react";
-import {Nav, Button} from 'react-bootstrap/Nav'
+import {Nav, Button} from 'react-bootstrap'
 import "./style.css"
 import {Link} from "react-router-dom"
 
