@@ -5,27 +5,27 @@ function Contact () {
     return (
         <>
         <NavBar/>
-        <div class="container">
-        <div class="row">
-            <div class="col-md-5">
+        <div className="container">
+        <div className="row">
+            <div className="col-md-5">
                 <form>
                     
-                    <div class="form-group">
-                        <label class="speech-bubble" for="exampleInputEmail1">Name</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name"/>
+                    <div className="form-group">
+                        <label className="speech-bubble" for="exampleInputEmail1">Name</label>
+                        <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name"/>
 
                     <div/>
                     
-                    <div class="form-group"/>
-                        <label class="speech-bubble" for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
-                        <small id="emailHelp" class="form-text text-muted"><span style="color:white">Your Email will not
+                    <div className="form-group"/>
+                        <label className="speech-bubble" for="exampleInputEmail1">Email address</label>
+                        <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+                        <small id="emailHelp" className="form-text text-muted"><span style="color:white">Your Email will not
                                 be shared with anyone</span></small>
                     <div/>
                     
-                    <div class="form-group">
-                        <label class="speech-bubble" for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type Message here" rows="8">  </textarea>
+                    <div className="form-group">
+                        <label className="speech-bubble" for="exampleFormControlTextarea1">Message</label>
+                        <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Type Message here" rows="8">  </textarea>
                     </div>
             </div>
             </form>

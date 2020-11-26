@@ -6,11 +6,11 @@ function Portfolio () {
     return (
      <>
             <NavBar/>
-            <div class="container">
-        <div class="row">
-            <div class="col-sm-3 float-left">
-                <div class="card">
-                            <img class="card-img-top cardImage" src="data:image/png;base64,
+            <div classNameName="container">
+        <div className="row">
+            <div className="col-sm-3 float-left">
+                <div className="card">
+                            <img className="card-img-top cardImage" src="data:image/png;base64,
                     iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAAjVBMVEUlKS////
                     8dICQiJisAABEMExx3eXw+QUUlKS4fIyoACBQgIyi8vb4XHCQLEx3HyMkAAAxPU
                     lYAAACur7ASGCDv7/DT1NWjpaaChIYuMTeJi40RFx8ABxQbICf19fU3OkCbnJ5SVF
@@ -42,42 +42,42 @@ function Portfolio () {
                     24d3nLfB1DGc+hl9bSt/cg762nP1VETgF9H0L/CTwW5i/OUDqaE9RLaNwuQCSbRPov1Y+
                     k/xNSo+HMPO1xvCH0L0Am79I9U8gH47DHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
                     AAAAAAAAABy/gfrN1HR8xKxOwAAAABJRU5ErkJggg=="/>
-                    <div class="card-body">
-                        <h5 class="card-title">GitHub</h5>
-                        <p class="card-text">Take a look at my GitHub profile and repositories</p>
-                        <Link href="https://github.com/Robmgraham" class="btn btn-primary">GitHub</Link>
+                    <div className="card-body">
+                        <h5 className="card-title">GitHub</h5>
+                        <p className="card-text">Take a look at my GitHub profile and repositories</p>
+                        <Link href="https://github.com/Robmgraham" className="btn btn-primary">GitHub</Link>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-3 float-left">
-                <div class="card">
-                    <img class="card-img-top cardImage" src="https://user-images.githubusercontent.com/67080837/89377133-0a10a680-d6a6-11ea-85de-604d357270c5.png"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Daily Planner app</h5>
-                        <p class="card-text"> A daily planner to help you prioritize your day</p>
-                        <Link href="https://robmgraham.github.io/Daily-Planner/" class="btn btn-primary">DAILY
+            <div className="col-sm-3 float-left">
+                <div className="card">
+                    <img className="card-img-top cardImage" src="https://user-images.githubusercontent.com/67080837/89377133-0a10a680-d6a6-11ea-85de-604d357270c5.png"/>
+                    <div className="card-body">
+                        <h5 className="card-title">Daily Planner app</h5>
+                        <p className="card-text"> A daily planner to help you prioritize your day</p>
+                        <Link href="https://robmgraham.github.io/Daily-Planner/" className="btn btn-primary">DAILY
                             PLANNER</Link>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3 float-left">
-                <div class="card">
-                    <img class="card-img-top cardImage" src="https://user-images.githubusercontent.com/67080837/91235519-8bc68380-e6ea-11ea-9732-59f015ae6932.png"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Job Finder app</h5>
-                        <p class="card-text"> A Job Finder specifically for Javascript, HTML, CSS, and Python</p>
-                        <Link href="https://msaviola.github.io/JobFinder/" class="btn btn-primary">Job Finder</Link>
+            <div className="col-sm-3 float-left">
+                <div className="card">
+                    <img className="card-img-top cardImage" src="https://user-images.githubusercontent.com/67080837/91235519-8bc68380-e6ea-11ea-9732-59f015ae6932.png"/>
+                    <div className="card-body">
+                        <h5 className="card-title">Job Finder app</h5>
+                        <p className="card-text"> A Job Finder specifically for Javascript, HTML, CSS, and Python</p>
+                        <Link href="https://msaviola.github.io/JobFinder/" className="btn btn-primary">Job Finder</Link>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3 float-left">
-                <div class="card">
-                    <img class="card-img-top cardImage" src="\Images\Hypnos.png"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Hypnos Sleep Tracker</h5>
-                        <p class="card-text"> A sleep tracking app that helps the user regulate their sleep schedule</p>
-                        <Link href="https://project-hypnos.herokuapp.com/" class="btn btn-primary">Hypnos Sleep Tracker</Link>
+            <div className="col-sm-3 float-left">
+                <div className="card">
+                    <img className="card-img-top cardImage" src="\Images\Hypnos.png"/>
+                    <div className="card-body">
+                        <h5 className="card-title">Hypnos Sleep Tracker</h5>
+                        <p className="card-text"> A sleep tracking app that helps the user regulate their sleep schedule</p>
+                        <Link href="https://project-hypnos.herokuapp.com/" className="btn btn-primary">Hypnos Sleep Tracker</Link>
                     </div>
                 </div>
             </div>
