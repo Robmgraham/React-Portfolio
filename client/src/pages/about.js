@@ -1,12 +1,12 @@
 import React from "react"
-// import NavBar from "../components/Nav/Nav"
+import NavBar from "../components/Nav/Nav"
 
 
 function About () {
     return (
         <>
         
-    {/* <NavBar/> */}
+    <NavBar/>
 
     <div className="media container media-background">
         <img className="mr-3 mePhoto" src="/Images/Photo-of-me.jpg" alt="Generic placeholder image" />
