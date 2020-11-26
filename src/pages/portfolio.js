@@ -10,7 +10,7 @@ function Portfolio () {
         <div className="row">
             <div className="col-sm-3 float-left">
                 <div className="card">
-                            <img className="card-img-top cardImage" src="data:image/png;base64,
+                            {/* <img className="card-img-top cardImage" src="data:image/png;base64,
                     iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAAjVBMVEUlKS////
                     8dICQiJisAABEMExx3eXw+QUUlKS4fIyoACBQgIyi8vb4XHCQLEx3HyMkAAAxPU
                     lYAAACur7ASGCDv7/DT1NWjpaaChIYuMTeJi40RFx8ABxQbICf19fU3OkCbnJ5SVF
@@ -41,7 +41,7 @@ function Portfolio () {
                     ZySt/tOmotzfqszRq3pEmf5XF7K6r6fAG+U/plSvoQry0p2fvtD2MdJXsI2Zbco1D5Dn4
                     24d3nLfB1DGc+hl9bSt/cg762nP1VETgF9H0L/CTwW5i/OUDqaE9RLaNwuQCSbRPov1Y+
                     k/xNSo+HMPO1xvCH0L0Am79I9U8gH47DHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-                    AAAAAAAAABy/gfrN1HR8xKxOwAAAABJRU5ErkJggg=="/>
+                    AAAAAAAAABy/gfrN1HR8xKxOwAAAABJRU5ErkJggg=="/> */}
                     <div className="card-body">
                         <h5 className="card-title">GitHub</h5>
                         <p className="card-text">Take a look at my GitHub profile and repositories</p>
