@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar  from "../components/Nav/Nav"
-import Bootstrap from "bootstrap"
 
 function Contact () {
     return (

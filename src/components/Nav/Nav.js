@@ -14,13 +14,13 @@ function NavBar (){
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <Link class="nav-link" href="/">About</Link>
+                    <Link to="/">About</Link>
                 </li>
                 <li class="nav-item">
-                    <Link class="nav-link" href="/portfolio">Projects/Apps</Link>
+                    <Link to="/portfolio">Portfolio</Link>
                 </li>
                 <li class="nav-item">
-                    <Link class="nav-link" href="/contact">Contact<span class="sr-only">(current)</span></Link>
+                    <Link to="/contact">Contact</Link>
                 </li>
             </ul>
         </div>
