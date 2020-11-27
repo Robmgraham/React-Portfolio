@@ -5,7 +5,7 @@ function Contact() {
     return (
         <>
             <NavBar />
-            <div className="container">
+            <div className="container contactBody" >
                 <div className="row">
                     <div className="col-md-5">
                         <form>
